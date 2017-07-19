@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-        "start": "PORT=8080 ./bin/www",
+        "start": "PORT=8080 node ./bin/www",
         "openshift": "nodeshift --osc.strictSSL=false",
         "test": "tape test/*-test.js"
     },
